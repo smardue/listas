@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channels>
+
+<channel>
+<name>jacobo wong</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<items>
+<item>
+<title>chiste32</title>        
+<urlsolve>https://www.youtube.com/watch?v=k9UbPLoWc-w</urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>chiste31</title>        
+<urlsolve>https://www.youtube.com/watch?v=ZKr8UQGnicE</urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+</items>
+</channel>
+
+
+
+
+
+
+
+
+<channel>
+<name>opening</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<items>
+<item>
+<title>opening sacura</title>        
+<urlsolve>https://www.youtube.com/watch?v=HvXXlRmeHx8</urlsolve>
+<thumbnail>http://img1.ak.crunchyroll.com/i/spire2/f84794b4a7e8ccfb9c7e69e688ee918d1396455243_large.png</thumbnail>
+<fanart>https://vignette2.wikia.nocookie.net/sakuracardcaptors/images/d/db/Opening_1_%284%29.jpg/revision/latest?cb=20120417033836&path-prefix=es</fanart>
+</item>
+<item>
+<title>openin ranma</title>        
+<urlsolve>https://www.youtube.com/watch?v=oRQOp9ue3Dw</urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>openin inuyasha</title>        
+<urlsolve>https://www.youtube.com/watch?v=ixMvL0Lfi_w</urlsolve>
+<thumbnail>https://t6.rbxcdn.com/e0e332589a9ccac6fa3d77a5fc8d1351</thumbnail>
+<fanart>https://t6.rbxcdn.com/e0e332589a9ccac6fa3d77a5fc8d1351</fanart>
+</item>
+
+<item>
+<title>openin inuyasha</title>        
+<urlsolve>https://www.youtube.com/watch?v=ixMvL0Lfi_w</urlsolve>
+<thumbnail>https://t6.rbxcdn.com/e0e332589a9ccac6fa3d77a5fc8d1351</thumbnail>
+<fanart>https://t6.rbxcdn.com/e0e332589a9ccac6fa3d77a5fc8d1351</fanart>
+</item>
+</items>
+</channel>
+
+**********
+<channel>
+<name>EJEMPLOS</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<items>
+<item>
+<title>La explosion del VOLCÁN SANTA HELENA </title>        
+<urlsolve>https://www.youtube.com/watch?v=QpxJN_73pVU</urlsolve>
+<thumbnail>http://www.tinglado.net/files/manuel/imagenes/Yodapng.png</thumbnail>
+<fanart>http://www.aspasiatravel.es/wp-content/uploads/2017/03/Bromo-volcanes-indonesia.jpg</fanart>
+</item>
+<item>
+<title>Erupcion del monte pinatubo </title>        
+<urlsolve>https://www.youtube.com/watch?v=7180GpwVDFc</urlsolve>
+<thumbnail>http://www.tinglado.net/files/manuel/imagenes/Yodapng.png</thumbnail>
+<fanart>https://images4.alphacoders.com/715/thumb-1920-715770.jpg</fanart>
+</item>
+</items>
+</channel>
+
+
+
+</channels>
