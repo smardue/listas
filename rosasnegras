@@ -73,7 +73,23 @@
 </items>
 </channel>
 
-
+<channel>
+<name>Mis Peliculas</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<items>
+<item>
+<title>Pirañaconda </title>        
+<urlsolve>https://www.youtube.com/watch?v=y85Besb0Sws</urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+<item>
+<title>Piraña 1978 </title>        
+<urlsolve>https://www.youtube.com/watch?v=_kCYaMH9O8w</urlsolve>
+<thumbnail>http://linkdemega.com/wp-content/uploads/2017/05/l8pa19z38g5m.jpg</thumbnail>
+<fanart>http://linkdemega.com/wp-content/uploads/2017/05/l8pa19z38g5m.jpg</fanart>
+</item>
 
 
 
@@ -95,6 +111,8 @@
 <thumbnail>http://www.tinglado.net/files/manuel/imagenes/Yodapng.png</thumbnail>
 <fanart>https://images4.alphacoders.com/715/thumb-1920-715770.jpg</fanart>
 </item>
+
+
 </items>
 </channel>
 
