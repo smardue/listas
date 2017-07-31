@@ -450,6 +450,113 @@
 
 
 
+
+
+
+<channel>
+<name>ANIME</name>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<items>
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]SAKURA[/B] [/COLOR][COLOR skyblue]animeyt[/COLOR]  [COLOR gray][I]Ferrerlist [/I][/COLOR]</title>
+<link>$doregex[makelist4]</link>
+
+<regex>
+  <name>makelist4</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR deepskyblue] [makelist4.param2][/COLOR]</title>
+	<link>$doregex[makelist5]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*ver.*?)">*\n(.*)]]></expres>
+<page>http://www.animeyt.tv/cardcaptor-sakura</page>
+<referer>http://www.animeyt.tv</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
+<cookieJar>$doregex[createCFCookie]</cookieJar>
+</regex>
+<regex>
+        <name>createCFCookie</name>
+        <expres></expres>
+        <page>$pyFunction:cloudflare.createCookie('http://www.animeyt.tv',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36')</page>
+        <cookieJar></cookieJar>
+</regex>
+<regex>
+  <name>makelist5</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR deepskyblue] [makelist4.param2][/COLOR] [COLOR lightslategray] Servidor [makelist5.param1] [makelist5.param2][/COLOR]</title>
+	<link>[makelist5.param2]</link>
+]]></listrepeat>
+<expres><![CDATA[mirror == (.*[^158])\).*\s.*mirrorPlayer\("(.*?)"]]></expres>
+<page>[makelist4.param1]</page>
+<referer>http://www.animeyt.tv</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
+<cookieJar>$doregex[createCFCookie]</cookieJar>
+</regex>
+<regex>
+        <name>createCFCookie</name>
+        <expres></expres>
+        <page>$pyFunction:cloudflare.createCookie('http://www.animeyt.tv',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36')</page>
+        <cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/7/74/Dragon_Ball_Super_Key_visual.jpg</thumbnail>
+<fanart>http://www.daisuki.net/content/dam/Daisuki/contents/dbs/top/images/mainvisual_img_universe.jpg</fanart>
+</item>
+
+*********************************
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]CHRONOS[/B] [/COLOR][COLOR skyblue]animeyt[/COLOR]  [COLOR gray][I]Ferrerlist [/I][/COLOR]</title>
+<link>$doregex[makelist4]</link>
+
+<regex>
+  <name>makelist4</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR deepskyblue] [makelist4.param2][/COLOR]</title>
+	<link>$doregex[makelist5]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*ver.*?)">*\n(.*)]]></expres>
+<page>http://www.animeyt.tv/chrno-crusade</page>
+<referer>http://www.animeyt.tv</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
+<cookieJar>$doregex[createCFCookie]</cookieJar>
+</regex>
+<regex>
+        <name>createCFCookie</name>
+        <expres></expres>
+        <page>$pyFunction:cloudflare.createCookie('http://www.animeyt.tv',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36')</page>
+        <cookieJar></cookieJar>
+</regex>
+<regex>
+  <name>makelist5</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR deepskyblue] [makelist4.param2][/COLOR] [COLOR lightslategray] Servidor [makelist5.param1] [makelist5.param2][/COLOR]</title>
+	<link>[makelist5.param2]</link>
+
+]]></listrepeat>
+<expres><![CDATA[mirror == (.*[^158])\).*\s.*mirrorPlayer\("(.*?)"]]></expres>
+<page>[makelist4.param1]</page>
+<referer>http://www.animeyt.tv</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
+<cookieJar>$doregex[createCFCookie]</cookieJar>
+</regex>
+<regex>
+        <name>createCFCookie</name>
+        <expres></expres>
+        <page>$pyFunction:cloudflare.createCookie('http://www.animeyt.tv',Cookie_Jar,'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36')</page>
+        <cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/7/74/Dragon_Ball_Super_Key_visual.jpg</thumbnail>
+<fanart>http://www.daisuki.net/content/dam/Daisuki/contents/dbs/top/images/mainvisual_img_universe.jpg</fanart>
+</item>
+************************************
+</items>
+</channel>
+
+
+
+
 **********
 <channel>
 <name>EJEMPLOS</name>
